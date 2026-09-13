@@ -4,3 +4,7 @@ export function normalizeName(value) {
   }
   return value.trim();
 }
+
+export function greet(name) {
+  return `Hello, ${normalizeName(name)}!`;
+}
