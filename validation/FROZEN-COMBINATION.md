@@ -10,6 +10,7 @@
 - Permission profile: `:read-only`
 - Safety strategy: `read-only`
 - Event Prompt: `Review this change against the repository rules and its requested behavior.`
+- Consumer baseline commit: `5234bc345ac76077ea3b21141f21a3d29e445ed4`
 - Workflow Instance tree digest (SHA-256 over sorted per-file SHA-256 records): `85258029f84ddfa6fab6142fd8ef9b0170abfcc275327ee7543760a4eb59059e`
 
 Each Case Result freezes its PR number, base SHA, head SHA, event input, workflow run, and Check URL. Results from another combination must not be appended to this evidence set.
